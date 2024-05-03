@@ -1,0 +1,48 @@
+{
+    // Use o IntelliSense para saber mais sobre os atributos possíveis.
+    // Focalizar para exibir as descrições dos atributos existentes.
+    // Para obter mais informações, acesse: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "TratandoException",
+            "request": "launch",
+            "mainClass": "TratandoException",
+            "projectName": "smart-tv_74b89e33"
+        },
+        {
+            "type": "java",
+            "name": "entradaViaTeclado",
+            "request": "launch",
+            "mainClass": "entradaViaTeclado",
+            "projectName": "smart-tv_74b89e33"
+        },
+        {
+            "type": "java",
+            "name": "Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "Usuario",
+            "request": "launch",
+            "mainClass": "Usuario",
+            "projectName": "smart-tv_74b89e33"
+        },
+        {
+            "type": "java",
+            "name": "sobreMim",
+            "request": "launch",
+            "mainClass": "sobreMim",
+            "args": [
+                "Beto",
+                "Alves",
+                "43",
+                "1.76"
+            ],
+            "projectName": "smart-tv_74b89e33"
+        }
+    ]
+}
