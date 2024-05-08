@@ -1,0 +1,7 @@
+filmes:
+comandos
+mantada
+comumm
+joga 
+pega
+tira

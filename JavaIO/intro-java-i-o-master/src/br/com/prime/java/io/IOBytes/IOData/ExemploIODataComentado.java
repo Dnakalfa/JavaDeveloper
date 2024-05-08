@@ -1,4 +1,4 @@
-package br.com.dio.java.io.IOBytes.IOData;
+package br.com.prime.java.io.IOBytes.IOData;
 
 import java.io.*;
 import java.util.Scanner;

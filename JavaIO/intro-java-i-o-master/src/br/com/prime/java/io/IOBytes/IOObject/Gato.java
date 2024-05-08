@@ -1,4 +1,4 @@
-package br.com.dio.java.io.IOBytes.IOObject;
+package br.com.prime.java.io.IOBytes.IOObject;
 
 import java.io.Serializable;
 
@@ -6,11 +6,11 @@ import java.io.Serializable;
 public class Gato implements Serializable {
 
     private static final long serialVersionUID = 2L;
-    private String nome;
-    private Integer idade;
-    private String cor;
-    private boolean castrado;
-    private boolean ronrona;
+    private static String nome;
+    private static Integer idade;
+    private static String cor;
+    private static boolean castrado;
+    private static boolean ronrona;
 
     public Gato(){}
 
@@ -22,23 +22,23 @@ public class Gato implements Serializable {
         this.ronrona = ronrona;
     }
 
-    public String getNome() {
+    public static String getNome() {
         return nome;
     }
 
-    public Integer getIdade() {
+    public static Integer getIdade() {
         return idade;
     }
 
-    public String getCor() {
+    public static String getCor() {
         return cor;
     }
 
-    public boolean isCastrado() {
+    public static boolean isCastrado() {
         return castrado;
     }
 
-    public boolean isRonrona() {
+    public static boolean isRonrona() {
         return ronrona;
     }
 

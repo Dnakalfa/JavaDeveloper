@@ -1,4 +1,4 @@
-package br.com.dio.java.io.IOBytes;
+package br.com.prime.java.io.IOBytes;
 
 import java.io.*;
 

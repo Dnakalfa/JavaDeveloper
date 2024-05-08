@@ -1,11 +1,11 @@
-package br.com.dio.java.io.IOBytes;
+package br.com.prime.java.io.IOBytes;
 
 import java.io.*;
 
 //Faça uma cópia do arquivo “recomendacoes-copy.txt”.
 public class ExemploIOBytes {
     public static void copiarArquivo() throws IOException {
-        File f = new File("/home/cami/git/curso-dio-intro-java-io/recomendacoes-copy.txt");
+        File f = new File("C:/Users/umberto alves/Desktop/JavaDeveloper/JavaIO/criarArquivos-copy.txt");
         String nomeArquivo = f.getName();
 
         /*InputStream is = new FileInputStream(f.getName());

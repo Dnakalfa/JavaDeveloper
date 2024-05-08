@@ -1,4 +1,4 @@
-package br.com.dio.java.io.IOCharacter;
+package br.com.prime.java.io.IOCharacter;
 
 
 import java.io.*;
@@ -6,7 +6,7 @@ import java.io.*;
 //Faça uma cópia do arquivo “recomendacoes.txt” e agora adicione 3 recomendações de livros.
 public class Exercicio3IOCaracter {
     public static void copiarArquivo() throws IOException {
-        File f = new File("/home/cami/git/curso-dio-intro-java-io/recomendacoes.txt");
+        File f = new File("C:/Users/umberto alves/Desktop/JavaDeveloper/JavaIO/criarArquivos.txt");
         String nameArquivo = f.getName();
 
         /*FileReader r = new FileReader(nameArquivo);
@@ -48,7 +48,7 @@ public class Exercicio3IOCaracter {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
         String line = br.readLine();
 
-        BufferedWriter bw = new BufferedWriter(new FileWriter(arquivo, true));
+        BufferedWriter bw = new BufferedWriter(new FileWriter(arquivo, true));//usando o true, o arquivo e descarregado na integra
 
         do{
             bw.write(line);

@@ -1,10 +1,12 @@
-package br.com.dio.java.io.IOCharacter;
+package br.com.prime.java.io.IOCharacter;
 
 import java.io.*;
 import java.util.Scanner;
 
 //Abra o teclado para escrever 3 filmes que você recomendaria e armazene em “recomendacoes.txt”.
-public class Exercicio2IOCaracter {
+public class
+
+Exercicio2IOCaracter {
 
     public static void lerTecladoEscreverDocumento() throws IOException {
 
@@ -15,7 +17,7 @@ public class Exercicio2IOCaracter {
         Scanner scan = new Scanner(System.in);
         String line = scan.nextLine();
 
-        File f = new File("recomendacoes.txt");
+        File f = new File("criarArquivos.txt");
 
         BufferedWriter bw = new BufferedWriter(new FileWriter(f.getName()));
 

@@ -17,7 +17,7 @@ Crie um arquivo “peca-de-roupa.bin” e armazene:
 public class ExemploIOData {
     public static void incluirProduto() throws IOException {
 
-        File f = new File("/home/cami/Documents/peca-de-roupa.bin");
+        File f = new File("C:/Users/umberto alves/Desktop/JavaDeveloper/JavaIO/peca-de-roupa.bin");
 
         PrintStream ps = new PrintStream(System.out);
         ps.flush();

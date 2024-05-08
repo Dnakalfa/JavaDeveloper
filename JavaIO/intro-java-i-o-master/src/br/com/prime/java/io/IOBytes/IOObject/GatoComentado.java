@@ -1,4 +1,4 @@
-package br.com.dio.java.io.IOBytes.IOObject;
+package br.com.prime.java.io.IOBytes.IOObject;
 
 import java.io.Serializable;
 

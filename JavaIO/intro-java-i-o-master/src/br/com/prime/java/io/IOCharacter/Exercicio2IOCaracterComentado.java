@@ -1,4 +1,4 @@
-package br.com.dio.java.io.IOCharacter;
+package br.com.prime.java.io.IOCharacter;
 
 import java.io.*;
 import java.util.Scanner;

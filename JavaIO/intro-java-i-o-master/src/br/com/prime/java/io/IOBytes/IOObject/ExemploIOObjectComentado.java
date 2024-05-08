@@ -1,4 +1,4 @@
-package br.com.dio.java.io.IOBytes.IOObject;
+package br.com.prime.java.io.IOBytes.IOObject;
 
 import java.io.*;
 
@@ -71,7 +71,7 @@ public class ExemploIOObjectComentado {
     }
 
         public static void main (String[]args){
-            serealizarObjeto();
-            //desserializarObjeto("/home/cami/git/curso-dio-intro-java-io/gato");
+            //serealizarObjeto();
+            desserializarObjeto("/home/cami/git/curso-dio-intro-java-io/gato");
         }
 }
