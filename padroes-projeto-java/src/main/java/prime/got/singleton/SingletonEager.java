@@ -1,15 +1,17 @@
-package prime.got;
+package prime.got.singleton;
 
 /**Singleton "apressado"
  * @author Umberto
  */
 public class SingletonEager {
+
     private static SingletonEager instancia = new SingletonEager();
 
-    private SingletonEager(){
+    private SingletonEager() {
         super();
     }
-    public static SingletonEager getInstance(){
+
+    public static SingletonEager getInstancia() {
         return instancia;
     }
 }

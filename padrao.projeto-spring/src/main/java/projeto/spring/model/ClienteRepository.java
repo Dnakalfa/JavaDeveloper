@@ -1,2 +1,9 @@
-package projeto.spring.model;public class ClienteRepository {
+package projeto.spring.model;
+
+import org.springframework.data.repository.CrudRepository;
+import org.springframework.stereotype.Repository;
+
+@Repository
+public interface ClienteRepository extends CrudRepository<Cliente, Long> {
+
 }

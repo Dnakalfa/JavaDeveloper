@@ -1,4 +1,4 @@
-package prime.got;
+package prime.got.singleton;
 
 
 /**Singleton "encapsulado"

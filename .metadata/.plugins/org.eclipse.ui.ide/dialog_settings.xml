@@ -6,7 +6,17 @@
 		<item key="SmartImportRootWizardPage.STORE_NESTED_PROJECTS" value="true"/>
 		<item key="SmartImportRootWizardPage.STORE_CONFIGURE_NATURES" value="true"/>
 		<list key="org.eclipse.ui.internal.wizards.datatransfer.SmartImportRootWizardPage.knownSources">
+			<item value="C:\Users\umberto alves\Desktop\ProjectJava\JavaDeveloper2\junit5-exemplos-master"/>
+			<item value="C:\Users\umberto alves\Desktop\JavaDeveloper\programas Java"/>
+			<item value="C:\Users\umberto alves\Desktop\JavaDeveloper\programas Java\Controle Bancario"/>
+			<item value="C:\Users\umberto alves\Desktop\JavaDeveloper\programas Java\aplicacaoBancojava"/>
 			<item value="C:\Users\umberto alves\Desktop\ProjectJava\debugging-Java\debugging-java-master"/>
+		</list>
+	</section>
+	<section name="NewWizardAction">
+		<item key="NewWizardSelectionPage.STORE_SELECTED_ID" value="org.eclipse.jdt.ui.wizards.JavaProjectWizard"/>
+		<list key="NewWizardSelectionPage.STORE_EXPANDED_CATEGORIES_ID">
+			<item value="org.eclipse.jdt.ui.java"/>
 		</list>
 	</section>
 </section>
